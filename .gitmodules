@@ -1,0 +1,3 @@
+[submodule "vendor/node"]
+	path = vendor/node
+	url = https://github.com/joyent/node.git
