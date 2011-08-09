@@ -1,6 +1,6 @@
 var exec = require("child_process").exec;
 var cli = require("./commandLineInterface");
-var dh  = require("./directoryHelper");
+var DirectoryHelper  = require("./directoryHelper");
 var url = require("url");
 
 function home( response, params )
