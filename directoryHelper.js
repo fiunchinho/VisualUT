@@ -64,4 +64,4 @@ DirectoryHelper.prototype = {
 	}
 };
 
-//exports.DirectoryHelper;
+exports.DirectoryHelper = DirectoryHelper;
