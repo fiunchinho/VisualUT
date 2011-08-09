@@ -1,4 +1,4 @@
-DirectoryHelper = function( path, fs ){
+var DirectoryHelper = function( path, fs ){
 	this.path = path;
 	this.fileSystemModule = fs;
 	//this.fileSystemModule = require("fs");
@@ -64,4 +64,4 @@ DirectoryHelper.prototype = {
 	}
 };
 
-exports.DirectoryHelper = DirectoryHelper;
+module.exports = DirectoryHelper;
